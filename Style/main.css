@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vmin;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30vmin 0 30vmin;
+  background-image: url(https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif);
+  background-position: relative;
+  background-size: contain;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 18vmin 18vmin 18vmin;
+  grid-template-rows: 18vmin 18vmin 18vmin;
+  padding: 30px;
+}
+section > div {
+  background-color: cornflowerblue;
+  border: 5px inset rgb(223, 18, 223);
+  border-radius: 15%;
+  margin: 2vmin;
+}
+/* may take out, unsure what will happen if i do */
+article {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+  background-color: #feff38;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3f3f;
+  height: 100%;
+  margin: 5vmin 30vmin 5vmin 30vmin;
+}
+
+#play-again-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 52% 48% 47% 53% / 28% 26% 74% 72%;
+  background-color: #ff48c4;
+  border: 5px inset #c04df9;
+}
