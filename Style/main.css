@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
   display: flex;
@@ -24,7 +28,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 30vmin 0 30vmin;
+  margin: 0;
   background-image: url(https://c.tenor.com/yheo1GGu3FwAAAAM/rick-roll-rick-ashley.gif);
   background-position: relative;
   background-size: contain;
@@ -37,10 +41,16 @@ section {
   padding: 30px;
 }
 section > div {
+  display: flex;
   background-color: cornflowerblue;
   border: 5px inset rgb(223, 18, 223);
   border-radius: 15%;
   margin: 2vmin;
+  color:black;
+  font-size: 8vmin;
+  justify-content: center;
+  align-items: center;
+  /* pointer-events: none; */
 }
 /* may take out, unsure what will happen if i do */
 article {
@@ -70,4 +80,9 @@ footer {
   border-radius: 52% 48% 47% 53% / 28% 26% 74% 72%;
   background-color: #ff48c4;
   border: 5px inset #c04df9;
+  font-size: 2vmin;
+}
+
+#game-status {
+  justify-content: center;
 }
